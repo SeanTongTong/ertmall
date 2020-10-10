@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>淘宝网 - 购物车</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="./css/shopcart.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="font1/iconfont.css">
+    <script src = 'js/require.js' defer async = 'true' data-main = 'js/cart.js'></script>
+</head>
+<body>
+    <div class="top">
+        <div class="see">
+            <div class="tleft">
+                <div class="user">
+                    <a href="">梦随缘彤
+                        <span class="iconfont">&#xe62e;</span>
+                        <span class="iconfont">&#xe62d;</span>
+                    </a>
+                    <div class="tou">
+                        <ul>
+                            <li>
+                                <a href="">账号管理</a>
+                            </li>
+                            <li>
+                                <span>|</span>
+                            </li>
+                            <li>
+                                <a href="">退出</a>
+                            </li>
+                        </ul>
+                        <br />
+                        <img src="./images/shopcart/touxiang.jpg" alt="">
+                        <div class="hright">
+                            <i class="tao">淘气值：617</i><br />
+                            <i class="tao to">普通会员</i>
+                        </div>
+                        <div class="but"><a href="">查看你的专属权益</a></div>
+                    </div>
+                </div>
+                <div class="phones">
+                    <a href="">手机逛淘宝</a>
+                </div>
+            </div>
+            <div class="tright">
+                <ul>
+                    <li><a href="http://localhost:8887/index.html">淘宝网首页</a></li>
+                    <li><a href="">我的淘宝
+                            <span class="iconfont">&#xe62e;</span>
+                            <span class="iconfont">&#xe62d;</span>
+                        </a>
+                        <ul>
+                            <li><a href="">已买到的宝贝</a></li>
+                            <li><a href="">我的足迹</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="http://localhost:8887/shopcart.html">
+                            <span class="iconfont red">&#xe6b8;</span>
+                            购物车<span class="red">80</span>
+                            <span class="iconfont">&#xe62e;</span>
+                            <span class="iconfont">&#xe62d;</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">收藏夹
+                            <span class="iconfont">&#xe62e;</span>
+                            <span class="iconfont">&#xe62d;</span>
+                        </a>
+                        <ul>
+                            <li><a href="">收藏的宝贝</a></li>
+                            <li><a href="">收藏的店铺</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">商品分类</a></li>
+                    <li><a href="">免费开店</a></li>
+                    <li><a href="">牛牛卖家中心
+                        <span class="iconfont">&#xe62e;</span>
+                        <span class="iconfont">&#xe62d;</span>
+                    </a>
+                    <ul>
+                        <li><a href="">免费开店</a></li>
+                        <li><a href="">已卖出的宝贝</a></li>
+                        <li><a href="">出售中的宝贝</a></li>
+                        <li><a href="">卖家服务市场</a></li>
+                        <li><a href="">卖家培训中心</a></li>
+                        <li><a href="">体验中心</a></li>
+                        <li><a href="">问商友</a></li>
+                    </ul>
+                </li>
+                    <li><a href="">联系客服
+                        <span class="iconfont">&#xe62e;</span>
+                        <span class="iconfont">&#xe62d;</span>
+                    </a>
+                    <ul>
+                        <li><a href="">消费者客服</a></li>
+                        <li><a href="">卖家客服</a></li>
+                    </ul>
+                </li>
+                    <li><a href="">
+                        <span class="iconfont red">&#xe60f;</span>
+                        网站导航
+                        <span class="iconfont">&#xe62e;</span>
+                        <span class="iconfont">&#xe62d;</span>
+                    </a>
+                    <div class="dao">
+                        <div id="primary">
+                            <h4 id="prit">主题市场</h4>
+                            <table class="zhuang one">
+                                <tr>
+                                    <td><a href="">女装</a></td>
+                                    <td><a href="">男装</a></td>
+                                    <td><a href="">内衣</a></td>
+                                    <td><a href="">鞋靴</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">箱包</a></td>
+                                    <td><a href="">婴童</a></td>
+                                    <td><a href="">家电</a></td>
+                                    <td><a href="">数码</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">手机</a></td>
+                                    <td><a href="">美妆</a></td>
+                                    <td><a href="">珠宝</a></td>
+                                    <td><a href="">眼镜</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">手表</a></td>
+                                    <td><a href="">运动</a></td>
+                                    <td><a href="">户外</a></td>
+                                    <td><a href="">乐器</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">游戏</a></td>
+                                    <td><a href="">动漫</a></td>
+                                    <td><a href="">影视</a></td>
+                                    <td><a href="">美食</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">鲜花</a></td>
+                                    <td><a href="">宠物</a></td>
+                                    <td><a href="">农资</a></td>
+                                    <td><a href="">房产</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">装修</a></td>
+                                    <td><a href="">建材</a></td>
+                                    <td><a href="">家居</a></td>
+                                    <td><a href="">百货</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">汽车</a></td>
+                                    <td><a href="">二手车</a></td>
+                                    <td><a href="">办公</a></td>
+                                    <td><a href="">定制</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">教育</a></td>
+                                    <td><a href="">卡券</a></td>
+                                    <td><a href="">本地</a></td>
+                                    <td><a href=""></a></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id="se">
+                            <h4 id="set">特色市场</h4>
+                            <table class="zhuang two">
+                                <tr>
+                                    <td><a href="">爱逛街</a></td>
+                                    <td><a href="">美妆秀</a></td>
+                                    <td><a href="">全球购</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">腔调</a></td>
+                                    <td><a href="">淘女郎</a></td>
+                                    <td><a href="">星店</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">极有家</a></td>
+                                    <td><a href="">阿里拍卖</a></td>
+                                    <td><a href="">淘宝众筹</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">飞猪</a></td>
+                                    <td><a href="">亲宝贝</a></td>
+                                    <td><a href="">闲鱼</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">农资</a></td>
+                                    <td><a href="">天天特卖</a></td>
+                                    <td><a href="">Outlets</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">俪人购</a></td>
+                                    <td><a href="">聚名品</a></td>
+                                    <td><a href="">淘抢购</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">全球精选</a></td>
+                                    <td><a href="">非常大牌</a></td>
+                                    <td><a href="">试用</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">量贩团</a></td>
+                                    <td><a href="">阿里翻译</a></td>
+                                    <td><a href=""></a></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id="ali">
+                            <h4 id="alit">阿里APP</h4>
+                            <table class="zhuang three">
+                                <tr>
+                                    <td><a href="">淘宝</a></td>
+                                    <td><a href="">天猫</a></td>
+                                    <td><a href="">支付宝</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">聚划算</a></td>
+                                    <td><a href="">飞猪</a></td>
+                                    <td><a href="">蚂蚁聚宝</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">旺信</a></td>
+                                    <td><a href="">闲鱼</a></td>
+                                    <td><a href="">阿里钱盾</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">钉钉</a></td>
+                                    <td><a href="">高德地图</a></td>
+                                    <td><a href="">点点虫</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">虾米音乐</a></td>
+                                    <td><a href="">淘票票</a></td>
+                                    <td><a href="">菜鸟裹裹</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">爱逛街</a></td>
+                                    <td><a href="">拍卖会</a></td>
+                                    <td><a href="">阿里云</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">网商银行</a></td>
+                                    <td><a href="">阿里邮箱</a></td>
+                                    <td><a href="">阿里众包</a></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id="cai">
+                            <h4 id="cait">精彩推荐集</h4>
+                            <table class="zhuang four">
+                                <tr>
+                                    <td><a href="">余额宝</a></td>
+                                    <td><a href="">大牌捡宝</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">淘公仔</a></td>
+                                    <td><a href="">浏览器</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">淘宝香港</a></td>
+                                    <td><a href="">淘宝台湾</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">淘宝全球</a></td>
+                                    <td><a href="">淘宝东南亚</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">闺蜜淘货</a></td>
+                                    <td><a href="">大众评审</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">淘工作</a></td>
+                                    <td><a href="">阿里巴巴认证</a></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="logos">
+        <div class="logo">
+            <img src="./images/shopcart/sou2.png" alt="">
+        </div>
+        <article class="rightsou">
+            <form action="#" method="POST">
+                <select>
+                    <option value="宝贝">宝贝</option>
+                    <option value="天猫">天猫</option>
+                    <option value="店铺">店铺</option>
+                </select>
+                <input type="text" value=" ">
+                <input type="button" value="搜 索">
+            </form>
+        </article>
+    </div>
+    <!-- 购物车 -->
+    <div class="carts">
+        <ul>
+            <li><a href="">全部商品<span>75</span></a></li>
+            <span>|</span>
+            <li><a href="">降级商品<span>5</span></a></li>
+            <span>|</span>
+            <li><a href="">库存紧张<span>0</span></a></li>
+            <div class="store">
+                <span>已选商品（不含运费）</span>
+                <em id="total">0.00</em>
+                <input type="submit" value="结 算">
+            </div>
+        </ul>
+    </div>
+    <div class="list">
+        <table class="lists" id = 'J_cartListBody'>
+            <thead>
+                <tr>
+                    <th class="xuan"><input type="checkbox" id="selects" name="selectall">&nbsp;&nbsp;全选</th>
+                    <th class="xinxi">商品信息</th>
+                    <th class="xiang"></th>
+                    <th class="price">单价</th>
+                    <th class="count">数量</th>
+                    <th class="zong">金额</th>
+                    <th class="do">操作</th>
+                </tr>
+            </thead>
+            <tbody class="shuju J_cartGoods">
+                
+                <tr class="content_tr con" id="${newArr[i].id}">
+                    <td><input type="checkbox" id="check${newArr[i].id}" class="checks"></td>
+                    <td>
+                        <img src="./images/shopcart/yu.jpg" alt="">
+                        <span>【国庆价】雨衣外套旅游登山徒步透明户外加厚儿童男女通用便携式一次性雨披</span>
+                    </td>
+                    <td>
+                        <div class="content">
+                            <span>颜色分类:全新特厚150g成人灰色（带束口）拍一送一共2件
+                            尺码:均码</span>
+                        </div>
+                    </td>
+                    <td>
+                        <s class="historys">￥18.00</s><br />
+                        <em class="nows">￥9.00</em>
+                    </td>
+                    <td>
+                        <div class="jian goods_btn"><a href="">-</a></div>
+                        <input class="goods_btn prices" type="text" value="1">
+                        <div class="jia goods_btn"><a href="">+</a></div>
+                    </td>
+                    <td>
+                        <label for="nows count1">￥9.00</label>
+                    </td>
+                    <td id="delete"><a href="">删除</a></td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+    <div class = 'cart-recommend container' id = 'J_miRecommendBox'>
+        <h2 class = 'xm-recommend-title'>
+            <span>买购物车中商品的人还买了</span>
+        </h2>
+        <div class = 'xm-recommend'>
+            <ul class = 'row clearfix'>
+
+                    <!-- <li class="J_xm-recommend-list span4">    
+                        <img src="${arr[i].img}"> 
+                        <section>
+                            <span><a href="">${arr[i].title}</a></span><br />
+                            <span class="xm-recommend-price">${arr[i].price[0].now}元</span><br />
+                            <span class="xm-recommend-tips">   
+                                <a href="" class="btn" id="${arr[i].id}">加入购物车</a>  
+                            </span>
+                        </section>        
+                    </li>
+                    <li class="J_xm-recommend-list span4">    
+                        <img src="//i1.mifile.cn/a1/pms_1551867177.2478190!140x140.jpg" srcset="//i1.mifile.cn/a1/pms_1551867177.2478190!280x280.jpg  2x" alt="小米净水器1A（厨下式）"> 
+                        <section>
+                            <span><a href="">小米净水器1A（厨下式）</a></span><br />
+                            <span class="xm-recommend-price">1399元</span><br />
+                            <span class="xm-recommend-tips">    
+                                <a href="">加入购物车</a>  
+                            </span>
+                        </section>        
+                    </li> -->
+
+            </ul>
+        </div>
+    </div>
+    <!-- di -->
+    <div class="finally">
+        <div class="final">
+            <div class="about">
+                <ul>
+                    <li><a href="">关于天猫</a></li>
+                    <li><a href="">帮助中心</a></li>
+                    <li><a href="">开放平台</a></li>
+                    <li><a href="">诚聘英才</a></li>
+                    <li><a href="">联系我们</a></li>
+                    <li><a href="">网站合作</a></li>
+                    <li><a href="">法律声明</a></li>
+                    <li><a href="">隐私权政策</a></li>
+                    <li><a href="">知识产权</a></li>
+                    <li><a href="">廉正举报</a></li>
+                    <li><a href="">规则意见征集</a></li>
+                </ul>
+                <br/>
+            </div>
+            <div class="app">
+                <ul>
+                    <li><a href="">阿里巴巴集团</a></li>
+                    <li><span>|</span></li>
+                    <li><a href="">淘宝网</a></li>
+                    <li><span>|</span></li>
+                    <li><a href="">天猫</a></li>
+                    <li><span>|</span></li>
+                    <li><a href="">聚划算</a></li>
+                    <li><span>|</span></li>
+                    <li><a href="">全球速卖通</a></li>
+                    <li><span>|</span></li>
+                    <li><a href="">阿里巴巴国际交易市场</a></li>
+                    <li><span>|</span></li>
+                    <li><a href="">1688</a></li>
+                    <li><span>|</span></li>
+                    <li><a href="">阿里妈妈</a></li>
+                    <li><span>|</span></li>
+                    <li><a href="">飞猪</a></li>
+                    <li><span>|</span></li>
+                    <li><a href="">阿里云计算</a></li>
+                    <li><span>|</span></li>
+                    <li><a href="">AliOS</a></li>
+                    <li><span>|</span></li>
+                    <li><a href="">阿里通信</a></li>
+                    <li><span>|</span></li>
+                    <li><a href="">万网</a></li>
+                    <li><span>|</span></li>
+                    <li><a href="">高德</a></li>
+                    <li><span>|</span></li>
+                    <li><a href="">UC</a></li>
+                    <li><span>|</span></li>
+                    <li><a href="">友盟</a></li>
+                    <li><span>|</span></li>
+                    <li><a href="">虾米</a></li>
+                    <li><span>|</span></li>
+                    <li><a href="">钉钉</a></li>
+                    <li><span>|</span></li>
+                    <li><a href="">支付宝</a></li>
+                    <li><span>|</span></li>
+                    <li><a href="">阿里安全</a></li>
+                </ul>
+                <br />
+            </div>
+            <div class="card">
+                <ul>
+                    <li>增值电信业务经营许可证:浙B2-20110446</li>
+                    <li>市场名称登记证:工商网市字3301004119号</li>
+                    <li>出版物网络交易平台服务经营备案证:新出发浙备字第001号</li>
+                </ul>
+                <br />
+            </div>
+            <div class="tel">
+                <ul>
+                    <li>互联网违法和不良信息举报电话:0571-81683755 blxxjb@alibaba-inc.com</li>
+                    <li>互联网药品信息服务资质证书编号:浙-(经营性）-2017-0005</li>
+                    <li><img src="./images/an1.png">浙公网安备33010002000120号</li><br />
+                    <li>医疗器械网络交易服务第三方平台备案：(浙）网械平台备字[2018]第00002号</li>
+                    <li>互联网药品交易服务资格证书:国A20150001</li><br />
+                    <li>浙江省网络食品销售第三方平台提供者备案:浙网食A33010002</li>
+                    <li>12318举报</li>
+                </ul>
+                <br />
+            </div>
+            <div class="ban">&copy;2003-2020&nbsp;TMALL.COM版权所有</div><br />
+        </div>
+    </div>
+</body>
+</html>

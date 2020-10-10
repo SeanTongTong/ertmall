@@ -1,0 +1,547 @@
+@charset "UTF-8";
+.tops {
+  height: 80px;
+  width: 100%;
+  background-color: #ffa500; }
+  .tops .topimg {
+    height: 80px;
+    width: 1200px;
+    margin: 0 auto; }
+    .tops .topimg img {
+      height: 100%;
+      width: 100%; }
+
+.top {
+  height: 25px;
+  width: 100%;
+  background-color: #f2f2f2;
+  border-bottom: 2px solid #e5e5e5;
+  line-height: 25px;
+  margin: 0 auto; }
+  .top .top1 {
+    width: 1260px;
+    height: 25px;
+    margin: 0 auto;
+    color: #999;
+    font-size: 10px; }
+    .top .top1 #left .lleft {
+      float: left;
+      margin-right: 15px; }
+    .top .top1 #left div a {
+      color: #999;
+      margin: 0 8px; }
+    .top .top1 #left div a:hover {
+      color: #f00; }
+    .top .top1 #right li {
+      float: right;
+      position: relative; }
+      .top .top1 #right li a {
+        color: #999;
+        margin: 0 8px; }
+        .top .top1 #right li a .iconfont {
+          font-size: 10px; }
+        .top .top1 #right li a #red {
+          color: #f00; }
+        .top .top1 #right li a .hua:last-of-type {
+          display: none; }
+      .top .top1 #right li a:hover {
+        color: #f00; }
+      .top .top1 #right li dl {
+        border: 1px solid #eee;
+        border-top: 0;
+        position: fixed;
+        display: none;
+        z-index: 3;
+        background-color: #fff; }
+      .top .top1 #right li .dao {
+        position: absolute;
+        right: 0;
+        width: 1030px;
+        z-index: 3;
+        border: 1px solid #eee;
+        background-color: #fff;
+        display: none; }
+        .top .top1 #right li .dao div {
+          padding: 10px 5px;
+          float: left;
+          border-right: 1px solid #eee; }
+          .top .top1 #right li .dao div h4 {
+            text-indent: 10px; }
+          .top .top1 #right li .dao div table tr td {
+            width: 80px;
+            height: 30px; }
+        .top .top1 #right li .dao div:last-child {
+          border: 0; }
+        .top .top1 #right li .dao #hot #hott {
+          color: #ffa500; }
+        .top .top1 #right li .dao #market #markets {
+          color: #00f; }
+        .top .top1 #right li .dao #help #helps {
+          color: #808080; }
+      .top .top1 #right li .support {
+        position: absolute;
+        right: 0;
+        z-index: 3;
+        width: 130px;
+        padding: 5px;
+        background-color: #fff;
+        display: none; }
+        .top .top1 #right li .support h5 {
+          color: #000;
+          font-weight: bold;
+          font-size: 12px;
+          line-height: 21px; }
+        .top .top1 #right li .support table {
+          font-size: 12px;
+          width: 120px;
+          border-bottom: 1px dashed #eee; }
+          .top .top1 #right li .support table tr {
+            height: 21px; }
+            .top .top1 #right li .support table tr td:first-child {
+              width: 66px; }
+    .top .top1 #right li:hover {
+      background-color: #fff; }
+      .top .top1 #right li:hover a .hua:nth-last-of-type(2) {
+        display: none; }
+      .top .top1 #right li:hover a .hua:last-of-type {
+        display: inline-block; }
+      .top .top1 #right li:hover dl {
+        display: block; }
+      .top .top1 #right li:hover .dao {
+        display: block; }
+      .top .top1 #right li:hover .support {
+        display: block; }
+
+/* logo */
+.logo {
+  height: 120px;
+  width: 1260px;
+  margin: 0 auto;
+  position: relative; }
+  .logo #logoimg img {
+    height: 70px;
+    width: 190px;
+    margin: 25px 0 25px 25px; }
+  .logo .city {
+    width: 90px;
+    height: 40px;
+    border: 1px solid #999;
+    position: absolute;
+    top: 40px;
+    left: 250px; }
+    .logo .city #citys {
+      width: 90px;
+      height: 40px;
+      font-size: 20px;
+      color: #46c800;
+      line-height: 40px;
+      text-indent: 10px; }
+      .logo .city #citys #ups {
+        display: none;
+        position: relative;
+        left: -10px; }
+    .logo .city #citys:hover #downs {
+      display: none; }
+    .logo .city #citys:hover #ups {
+      display: inline-block; }
+    .logo .city #citys:hover .local {
+      display: block; }
+  .logo .center {
+    position: absolute;
+    top: 40px;
+    left: 380px;
+    margin: 0 auto;
+    width: 500px;
+    height: 40px;
+    border: 2px solid #46c800;
+    border-right: 0; }
+    .logo .center form input:first-child {
+      border: 0;
+      height: 40px;
+      line-height: 40px;
+      width: 385px;
+      text-indent: 12px;
+      background: transparent;
+      font-size: 20px; }
+    .logo .center form input:last-child {
+      border: 0;
+      width: 110px;
+      height: 40px;
+      background-color: #46c800;
+      color: #fff;
+      font-weight: 900;
+      font-size: 20px; }
+  .logo .right {
+    position: absolute;
+    top: 33px;
+    right: 0; }
+    .logo .right div {
+      font-size: 14px;
+      line-height: 54px;
+      margin-right: 20px;
+      float: right; }
+      .logo .right div span {
+        color: #46c800;
+        font-size: 16px; }
+    .logo .right img {
+      height: 54px;
+      float: right; }
+    .logo .right .two span {
+      font-size: 10px;
+      border: 1px solid #46c800;
+      border-radius: 50%; }
+
+/* nav */
+.box {
+  width: 100%;
+  border-bottom: 1px solid #000; }
+  .box .nav {
+    width: 1260px;
+    height: 40px;
+    margin: 0 auto; }
+    .box .nav .uls > ul > li {
+      float: left;
+      font-weight: 900;
+      font-size: 22px;
+      line-height: 40px;
+      text-align: center;
+      position: relative; }
+      .box .nav .uls > ul > li > a {
+        color: #000;
+        display: inline-block;
+        padding: 0 30px; }
+      .box .nav .uls > ul > li > span {
+        color: #eee; }
+      .box .nav .uls > ul > li .product {
+        position: absolute;
+        width: 248px;
+        height: 765px;
+        background-color: #fff;
+        border: 1px solid #999;
+        z-index: 3;
+        padding: 0px 10px;
+        display: none; }
+        .box .nav .uls > ul > li .product > ul > li {
+          height: 95px;
+          border-bottom: 1px solid #eee; }
+          .box .nav .uls > ul > li .product > ul > li h3 {
+            float: left;
+            font-weight: 900; }
+          .box .nav .uls > ul > li .product > ul > li span:last-of-type {
+            float: right;
+            color: #eee; }
+          .box .nav .uls > ul > li .product > ul > li a {
+            font-size: 12px;
+            color: #999; }
+    .box .nav .uls > ul > li:first-child > a {
+      background-color: #000;
+      color: #fff;
+      display: inline-block;
+      width: 190px; }
+    .box .nav .uls > ul > li:nth-child(3) a:hover {
+      color: #f00; }
+    .box .nav .uls > ul li:nth-child(5) a:hover {
+      color: #f00; }
+
+/* 放大镜 */
+.magnifying {
+  height: 750px;
+  width: 1260px;
+  margin: 0 auto;
+  position: relative;
+  /* .rightjing  */ }
+  .magnifying #small {
+    width: 600px;
+    height: 600px;
+    border: 1px solid #000;
+    top: 10px;
+    left: 0px;
+    position: absolute; }
+    .magnifying #small img {
+      width: 100%;
+      height: 100%; }
+    .magnifying #small #side {
+      width: 200px;
+      height: 200px;
+      background: rgba(94, 91, 91, 0.5);
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      display: none; }
+  .magnifying #big {
+    width: 600px;
+    height: 600px;
+    border: 1px solid #000;
+    position: absolute;
+    top: 10px;
+    left: 630px;
+    display: none;
+    overflow: hidden;
+    z-index: 2; }
+    .magnifying #big img {
+      width: 1800px;
+      height: 1800px;
+      position: absolute;
+      top: 0px;
+      left: 0px; }
+  .magnifying .rightjing {
+    position: absolute;
+    left: 630px;
+    top: 10px;
+    height: 600px;
+    width: 630px; }
+    .magnifying .rightjing .title {
+      height: 60px;
+      text-indent: 2px; }
+      .magnifying .rightjing .title h3 {
+        font-size: 20px;
+        font-weight: 900; }
+      .magnifying .rightjing .title span {
+        color: #f00;
+        font-size: 14px; }
+    .magnifying .rightjing .price {
+      height: 60px;
+      width: 610px;
+      background-color: #ecebeb;
+      line-height: 60px;
+      color: #999;
+      font-size: 14px;
+      text-indent: 10px; }
+      .magnifying .rightjing .price em {
+        position: relative;
+        top: -8px; }
+      .magnifying .rightjing .price span {
+        color: #f00;
+        font-size: 30px;
+        font-weight: 900;
+        margin-left: 50px;
+        margin-right: 10px; }
+      .magnifying .rightjing .price i {
+        color: #000;
+        position: relative;
+        top: -8px; }
+    .magnifying .rightjing .trans {
+      height: 60px;
+      width: 610px;
+      line-height: 60px;
+      font-size: 14px;
+      text-indent: 10px; }
+      .magnifying .rightjing .trans em {
+        color: #999;
+        float: left; }
+      .magnifying .rightjing .trans aside {
+        float: left; }
+      .magnifying .rightjing .trans .shi {
+        margin-left: 45px; }
+        .magnifying .rightjing .trans .shi #ups {
+          display: none;
+          position: relative; }
+      .magnifying .rightjing .trans .shi:hover #downs {
+        display: none; }
+      .magnifying .rightjing .trans .shi:hover #ups {
+        display: inline-block; }
+      .magnifying .rightjing .trans .shi:hover .local {
+        display: block; }
+    .magnifying .rightjing .count {
+      height: 60px;
+      width: 610px;
+      border-top: 1px dashed #999;
+      border-bottom: 1px dashed #999;
+      line-height: 60px; }
+    .magnifying .rightjing ul li {
+      float: left;
+      width: 300px;
+      text-align: center; }
+      .magnifying .rightjing ul li span {
+        color: #f00;
+        font-weight: bold; }
+    .magnifying .rightjing ul li:last-of-type span {
+      color: #000; }
+    .magnifying .rightjing ul i {
+      float: left; }
+    .magnifying .rightjing .data {
+      height: 60px;
+      width: 610px;
+      line-height: 60px;
+      font-size: 14px;
+      text-indent: 10px;
+      color: #999;
+      position: relative; }
+      .magnifying .rightjing .data input {
+        height: 40px;
+        width: 50px;
+        margin-left: 40px;
+        border: 1px solid #999;
+        padding-left: 10px; }
+      .magnifying .rightjing .data .updown {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 10px;
+        left: 150px; }
+        .magnifying .rightjing .data .updown div {
+          width: 30px;
+          height: 17px;
+          border: 1px solid #999; }
+        .magnifying .rightjing .data .updown .down {
+          position: absolute;
+          bottom: 0px; }
+          .magnifying .rightjing .data .updown .down .iconfont {
+            font-size: 10px;
+            position: relative;
+            top: -22px; }
+        .magnifying .rightjing .data .updown .up .iconfont {
+          font-size: 10px;
+          position: relative;
+          top: -22px; }
+    .magnifying .rightjing .submit {
+      height: 60px;
+      width: 610px; }
+      .magnifying .rightjing .submit button {
+        background-color: #f00;
+        border: 0;
+        height: 50px;
+        width: 300px;
+        margin-left: 80px;
+        font-size: 20px; }
+        .magnifying .rightjing .submit button > a {
+          color: #fff; }
+    .magnifying .rightjing .ranges {
+      width: 610px;
+      font-size: 14px;
+      color: #999;
+      position: absolute;
+      bottom: 60px; }
+      .magnifying .rightjing .ranges i {
+        margin-left: 40px;
+        color: #886655; }
+    .magnifying .rightjing .fangshi {
+      float: right; }
+      .magnifying .rightjing .fangshi .huas .tus {
+        display: none;
+        position: absolute;
+        right: 0;
+        height: 60px;
+        font-size: 14px;
+        line-height: 20px;
+        width: 140px;
+        padding-top: 10px;
+        border: 1px solid #eee; }
+        .magnifying .rightjing .fangshi .huas .tus table tr td {
+          width: 70px;
+          text-indent: 10px; }
+          .magnifying .rightjing .fangshi .huas .tus table tr td a {
+            color: #000; }
+      .magnifying .rightjing .fangshi #ups {
+        display: none; }
+      .magnifying .rightjing .fangshi .huas:hover .tus {
+        display: block; }
+    .magnifying .rightjing .fangshi:hover #downs {
+      display: none; }
+    .magnifying .rightjing .fangshi:hover #ups {
+      display: inline-block; }
+  .magnifying .imgs {
+    width: 610px;
+    height: 150px;
+    margin-top: 10px;
+    position: absolute;
+    top: 600px; }
+    .magnifying .imgs img {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      top: 25px;
+      margin-left: 12px;
+      border: 1px solid transparent; }
+    .magnifying .imgs img:hover {
+      border: 1px solid #000; }
+
+/* bottom */
+.bottom {
+  height: 255px;
+  width: 100%;
+  border-top: #eee solid 1px; }
+  .bottom .an {
+    width: 1200px;
+    height: 255px;
+    margin: 0 auto;
+    position: relative; }
+    .bottom .an aside {
+      width: 200px;
+      height: 240px;
+      float: left; }
+      .bottom .an aside .lo {
+        width: 150px;
+        position: relative;
+        top: 33px; }
+      .bottom .an aside h4 {
+        font-size: 20px;
+        font-weight: 900;
+        padding: 33px 0 10px 0;
+        text-indent: 50px; }
+      .bottom .an aside ul {
+        position: relative;
+        left: 50px;
+        font-size: 16px;
+        line-height: 24px; }
+        .bottom .an aside ul li a {
+          color: #999; }
+    .bottom .an aside:last-of-type img {
+      width: 150px;
+      position: relative;
+      left: 50px; }
+    .bottom .an .mao {
+      position: absolute;
+      bottom: 0;
+      left: 50px; }
+
+/* finally */
+.finally {
+  border-top: 2px solid #f00;
+  height: 220px;
+  width: 100%;
+  background-color: #c40000; }
+  .finally .final {
+    height: 220px;
+    width: 1200px;
+    margin: 0 auto; }
+    .finally .final .about {
+      font-size: 14px;
+      line-height: 30px; }
+      .finally .final .about ul li {
+        float: left;
+        margin-right: 8px; }
+        .finally .final .about ul li a {
+          color: #fff; }
+    .finally .final .app {
+      font-size: 14px; }
+      .finally .final .app ul li {
+        float: left;
+        color: #fff;
+        line-height: 40px; }
+        .finally .final .app ul li span {
+          margin: 0 4px; }
+        .finally .final .app ul li a {
+          color: #fff; }
+    .finally .final .card {
+      color: #fff; }
+      .finally .final .card ul li {
+        float: left;
+        font-size: 12px;
+        margin-right: 85px;
+        color: #a4a4a4; }
+    .finally .final .tel {
+      line-height: 25px;
+      font-size: 12px;
+      color: #a4a4a4; }
+      .finally .final .tel ul {
+        padding-top: 30px; }
+        .finally .final .tel ul li {
+          float: left;
+          margin-right: 85px; }
+    .finally .final .ban {
+      color: #686868;
+      font-size: 12px; }
+    .finally .final .banimgs img:first-child {
+      height: 40px;
+      margin-right: 5px; }

@@ -1,0 +1,112 @@
+.logo {
+  height: 88px;
+  width: 1200px;
+  margin: 0 auto; }
+  .logo img {
+    width: 190px;
+    height: 27px;
+    position: relative;
+    top: 30px;
+    left: 20px; }
+
+.main {
+  width: 100%;
+  height: 600px;
+  background-color: #f00; }
+  .main .mains {
+    width: 1200px;
+    height: 600px;
+    background: url(../images/login/bei.jpg) 100% 100% no-repeat;
+    margin: 0 auto;
+    position: relative; }
+    .main .mains .xinxi {
+      height: 400px;
+      width: 350px;
+      background-color: #fff;
+      position: absolute;
+      right: 50px;
+      top: 50px;
+      padding: 40px 30px; }
+      .main .mains .xinxi p {
+        width: 80px;
+        height: 30px;
+        display: inline-block;
+        line-height: 30px;
+        font-size: 20px;
+        font-weight: 900;
+        margin-right: 10px;
+        border-bottom: 2px solid transparent;
+        color: #000; }
+      .main .mains .xinxi p:hover {
+        border-bottom: 2px solid #000; }
+      .main .mains .xinxi form {
+        height: 300px;
+        position: absolute; }
+        .main .mains .xinxi form > input {
+          width: 350px;
+          height: 50px;
+          margin-top: 30px;
+          border: 1px solid #eee; }
+        .main .mains .xinxi form > input:last-of-type {
+          background-color: #f00;
+          color: #fff;
+          font-size: 20px; }
+        .main .mains .xinxi form span {
+          font-size: 10px;
+          float: right;
+          margin: 20px 10px; }
+          .main .mains .xinxi form span > a {
+            color: #a4a4a4; }
+        .main .mains .xinxi form img {
+          position: relative;
+          top: 50px;
+          left: 70px; }
+      .main .mains .xinxi .phone {
+        display: none; }
+
+.finally {
+  height: 200px;
+  width: 100%;
+  background-color: #fff; }
+  .finally .final {
+    border-top: 2px solid #eee;
+    height: 200px;
+    width: 1200px;
+    margin: 0 auto; }
+    .finally .final .about {
+      font-size: 14px;
+      line-height: 30px; }
+      .finally .final .about ul li {
+        float: left;
+        margin-right: 8px; }
+        .finally .final .about ul li a {
+          color: #000; }
+    .finally .final .app {
+      font-size: 14px; }
+      .finally .final .app ul li {
+        float: left;
+        color: #000;
+        line-height: 40px; }
+        .finally .final .app ul li span {
+          margin: 0 4px; }
+        .finally .final .app ul li a {
+          color: #000; }
+    .finally .final .card {
+      color: #fff; }
+      .finally .final .card ul li {
+        float: left;
+        font-size: 12px;
+        margin-right: 85px;
+        color: #a4a4a4; }
+    .finally .final .tel {
+      line-height: 25px;
+      font-size: 12px;
+      color: #a4a4a4; }
+      .finally .final .tel ul {
+        padding-top: 30px; }
+        .finally .final .tel ul li {
+          float: left;
+          margin-right: 85px; }
+    .finally .final .ban {
+      color: #686868;
+      font-size: 12px; }

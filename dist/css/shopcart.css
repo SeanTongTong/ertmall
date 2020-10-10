@@ -1,0 +1,411 @@
+.top {
+  height: 36px;
+  width: 100%;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #eee; }
+  .top > .see {
+    height: 36px;
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 36px;
+    font-size: 12px;
+    color: #6c6c6c; }
+    .top > .see > .tleft > .user {
+      width: 79px;
+      float: left; }
+      .top > .see > .tleft > .user > a {
+        color: #6c6c6c; }
+        .top > .see > .tleft > .user > a > span {
+          font-size: 8px; }
+        .top > .see > .tleft > .user > a > span:last-of-type {
+          display: none; }
+      .top > .see > .tleft > .user > .tou {
+        display: none;
+        width: 180px;
+        height: 120px;
+        font-size: 10px;
+        position: absolute;
+        z-index: 2;
+        background-color: #fff;
+        border: 1px solid #eee; }
+        .top > .see > .tleft > .user > .tou > ul {
+          float: right; }
+          .top > .see > .tleft > .user > .tou > ul > li {
+            float: left;
+            padding: 0 2px; }
+            .top > .see > .tleft > .user > .tou > ul > li a {
+              color: #6c6c6c; }
+          .top > .see > .tleft > .user > .tou > ul > li:hover > a {
+            color: #ffa500; }
+        .top > .see > .tleft > .user > .tou img {
+          float: left;
+          height: 50px;
+          width: 50px;
+          border-radius: 50%;
+          overflow: hidden;
+          margin: 0 10px 0 10px; }
+        .top > .see > .tleft > .user > .tou .hright {
+          float: left;
+          width: 80px;
+          height: 60px; }
+          .top > .see > .tleft > .user > .tou .hright .tao {
+            font-size: 10px;
+            line-height: 14px;
+            height: 14px; }
+          .top > .see > .tleft > .user > .tou .hright .to {
+            position: relative;
+            top: -20px; }
+        .top > .see > .tleft > .user > .tou .but {
+          height: 20px;
+          left: 10px;
+          width: 160px;
+          border: 1px solid #ffa500;
+          position: absolute;
+          bottom: 5px;
+          text-align: center;
+          line-height: 20px;
+          background-color: #ffaa33; }
+          .top > .see > .tleft > .user > .tou .but > a {
+            color: #000; }
+        .top > .see > .tleft > .user > .tou .but:hover > a {
+          color: #f00; }
+    .top > .see > .tleft .user:hover > a {
+      color: #ffa500; }
+      .top > .see > .tleft .user:hover > a > span:nth-last-of-type(2) {
+        display: none; }
+      .top > .see > .tleft .user:hover > a > span:last-of-type {
+        display: inline-block; }
+    .top > .see > .tleft .user:hover .tou {
+      display: block; }
+    .top > .see > .tleft .phones {
+      width: 79px;
+      float: left; }
+      .top > .see > .tleft .phones a {
+        color: #6c6c6c; }
+        .top > .see > .tleft .phones a span {
+          font-size: 8px; }
+    .top > .see > .tleft .phones:hover a {
+      color: #ffa500; }
+    .top > .see .tright {
+      float: right; }
+      .top > .see .tright > ul > li {
+        padding: 0 10px;
+        float: left;
+        position: relative; }
+        .top > .see .tright > ul > li > a {
+          color: #6c6c6c; }
+          .top > .see .tright > ul > li > a > span {
+            font-size: 8px; }
+          .top > .see .tright > ul > li > a .red {
+            color: #f00;
+            font-size: 14px;
+            font-weight: 800; }
+          .top > .see .tright > ul > li > a span:last-of-type {
+            display: none; }
+        .top > .see .tright > ul > li > ul {
+          display: none;
+          padding-bottom: 10px;
+          background-color: #fff;
+          border: 1px solid #eee;
+          position: absolute;
+          z-index: 2; }
+          .top > .see .tright > ul > li > ul > li {
+            text-indent: 5px;
+            height: 35px;
+            width: 80px; }
+            .top > .see .tright > ul > li > ul > li > a {
+              color: #6c6c6c; }
+          .top > .see .tright > ul > li > ul > li:hover {
+            background-color: #eee; }
+        .top > .see .tright > ul > li .dao {
+          position: absolute;
+          right: 0;
+          width: 1030px;
+          z-index: 3;
+          border: 1px solid #eee;
+          background-color: #fff;
+          display: none; }
+          .top > .see .tright > ul > li .dao div {
+            padding: 10px 5px;
+            float: left;
+            border-right: 1px solid #eee; }
+            .top > .see .tright > ul > li .dao div h4 {
+              text-indent: 4px;
+              font-weight: 800; }
+            .top > .see .tright > ul > li .dao div table tr td {
+              width: 80px;
+              height: 30px; }
+              .top > .see .tright > ul > li .dao div table tr td a {
+                color: #000; }
+            .top > .see .tright > ul > li .dao div table tr td:hover a {
+              color: #f00; }
+          .top > .see .tright > ul > li .dao div:last-child {
+            border: 0; }
+          .top > .see .tright > ul > li .dao #primary #prit {
+            color: #ffa500; }
+          .top > .see .tright > ul > li .dao #se #set {
+            color: #00f; }
+          .top > .see .tright > ul > li .dao #ali #alit {
+            color: #f00; }
+          .top > .see .tright > ul > li .dao #cai #cait {
+            color: #008000; }
+      .top > .see .tright > ul > li:hover > a {
+        color: #ffa500; }
+        .top > .see .tright > ul > li:hover > a span:nth-last-of-type(2) {
+          display: none; }
+        .top > .see .tright > ul > li:hover > a span:last-of-type {
+          display: inline-block; }
+      .top > .see .tright > ul > li:hover > ul {
+        display: block; }
+      .top > .see .tright > ul > li:hover .dao {
+        display: block; }
+
+.logos {
+  height: 95px;
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative; }
+  .logos .logo {
+    margin-top: 30px;
+    height: 30px;
+    width: 181px;
+    position: relative;
+    overflow: hidden; }
+    .logos .logo img {
+      width: 250px;
+      height: 200px;
+      position: absolute;
+      left: -60px; }
+  .logos .rightsou {
+    width: 470px;
+    height: 30px;
+    border: 2px solid #ff0000;
+    border-right: 0;
+    position: absolute;
+    right: 0;
+    top: 30px; }
+    .logos .rightsou form select {
+      height: 29px;
+      width: 110px;
+      background-color: #f5f5f5;
+      border: 0; }
+    .logos .rightsou form input:first-of-type {
+      border: 0;
+      height: 29px;
+      line-height: 29px;
+      width: 240px;
+      text-indent: 12px;
+      background: transparent;
+      font-size: 14px; }
+    .logos .rightsou form input:last-of-type {
+      border: 0;
+      width: 110px;
+      height: 30px;
+      background-color: #ff0000;
+      color: #fff;
+      font-weight: 900;
+      font-size: 14px; }
+
+.carts {
+  height: 33px;
+  width: 1200px;
+  margin: 0 auto;
+  line-height: 33px; }
+  .carts > ul {
+    height: 33px;
+    border-bottom: 2px solid #e6e6e6; }
+    .carts > ul > li {
+      float: left;
+      width: 130px;
+      height: 30px;
+      border-bottom: 2px solid transparent;
+      text-align: center; }
+      .carts > ul > li > a {
+        color: #000; }
+        .carts > ul > li > a span {
+          color: #f00; }
+    .carts > ul > li:hover {
+      border-bottom: 2px solid #f00; }
+      .carts > ul > li:hover > a {
+        color: #f00; }
+    .carts > ul > span {
+      color: #eee;
+      float: left; }
+    .carts > ul .store em {
+      color: #f00; }
+    .carts > ul .store input {
+      width: 55px;
+      height: 25px;
+      background-color: #aaa;
+      color: #fff; }
+  .carts .store {
+    float: right; }
+
+.list {
+  width: 1200px;
+  margin: 0 auto; }
+  .list .lists {
+    width: 1200px;
+    border-collapse: collapse; }
+    .list .lists > thead > tr {
+      height: 50px; }
+      .list .lists > thead > tr .xuan {
+        width: 80px; }
+      .list .lists > thead > tr .xinxi {
+        width: 450px; }
+      .list .lists > thead > tr .xiang {
+        width: 250px; }
+      .list .lists > thead > tr .price {
+        width: 100px; }
+      .list .lists > thead > tr .count {
+        width: 100px; }
+      .list .lists > thead > tr .zong {
+        width: 100px; }
+      .list .lists > thead > tr .do {
+        width: 100px; }
+    .list .lists > tbody > tr > td {
+      border: 1px solid #eee; }
+    .list .lists > tbody > tr > td:first-of-type {
+      width: 80px;
+      padding-left: 25px; }
+    .list .lists > tbody > tr > td:nth-of-type(2) img {
+      width: 80px;
+      height: 80px;
+      float: left;
+      margin: 2px; }
+    .list .lists > tbody > tr > td:nth-of-type(2) span {
+      margin-top: 15px;
+      margin-left: 5px;
+      width: 350px;
+      float: left;
+      font-weight: 800; }
+    .list .lists > tbody > tr > td:nth-of-type(3) {
+      padding: 5px; }
+      .list .lists > tbody > tr > td:nth-of-type(3) span {
+        color: #6c6c6c;
+        font-size: 10px;
+        line-height: 12px; }
+    .list .lists > tbody > tr > td:nth-of-type(4) {
+      font-size: 10px;
+      text-align: center; }
+      .list .lists > tbody > tr > td:nth-of-type(4) .historys {
+        color: #6c6c6c; }
+    .list .lists > tbody > tr > td:nth-last-of-type(3) {
+      padding-left: 18px; }
+      .list .lists > tbody > tr > td:nth-last-of-type(3) > div {
+        width: 20px;
+        height: 20px;
+        float: left;
+        text-align: center;
+        line-height: 20px;
+        border: 1px solid #000;
+        background-color: #aaa; }
+        .list .lists > tbody > tr > td:nth-last-of-type(3) > div > a {
+          color: #000; }
+      .list .lists > tbody > tr > td:nth-last-of-type(3) > input {
+        float: left;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        border: 1px solid #000; }
+    .list .lists > tbody > tr > td:nth-last-of-type(2) {
+      text-align: center; }
+    .list .lists > tbody > tr > td:last-of-type {
+      text-align: center; }
+      .list .lists > tbody > tr > td:last-of-type > a {
+        color: #6c6c6c; }
+
+.cart-recommend {
+  width: 1200px;
+  margin: 0 auto; }
+  .cart-recommend .xm-recommend-title {
+    width: 1200px;
+    height: 30px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px; }
+  .cart-recommend .xm-recommend {
+    width: 1200px;
+    height: auto;
+    display: flex;
+    margin: 0 auto; }
+    .cart-recommend .xm-recommend .row .J_xm-recommend-list {
+      width: 228px;
+      height: 280px;
+      border: 1px solid #eee;
+      background-color: #fff;
+      float: left;
+      margin: 0 5px;
+      margin-bottom: 10px; }
+      .cart-recommend .xm-recommend .row .J_xm-recommend-list img {
+        width: 170px;
+        height: 170px;
+        margin: 15px 35px 10px; }
+      .cart-recommend .xm-recommend .row .J_xm-recommend-list section {
+        font-size: 10px;
+        text-align: center; }
+        .cart-recommend .xm-recommend .row .J_xm-recommend-list section span {
+          color: #f00;
+          font-weight: 900; }
+          .cart-recommend .xm-recommend .row .J_xm-recommend-list section span > a {
+            color: #000; }
+        .cart-recommend .xm-recommend .row .J_xm-recommend-list section > a {
+          color: #000; }
+        .cart-recommend .xm-recommend .row .J_xm-recommend-list section .xm-recommend-tips {
+          border: 1px solid #eee;
+          font-size: 14px;
+          height: 20px;
+          line-height: 20px;
+          padding: 0 3px; }
+          .cart-recommend .xm-recommend .row .J_xm-recommend-list section .xm-recommend-tips > a {
+            color: #000; }
+
+.finally {
+  height: 200px;
+  width: 100%;
+  background-color: #fff; }
+  .finally .final {
+    border-top: 2px solid #eee;
+    height: 200px;
+    width: 1200px;
+    margin: 0 auto; }
+    .finally .final .about {
+      font-size: 14px;
+      line-height: 30px; }
+      .finally .final .about ul li {
+        float: left;
+        margin-right: 8px; }
+        .finally .final .about ul li a {
+          color: #000; }
+    .finally .final .app {
+      font-size: 14px; }
+      .finally .final .app ul li {
+        float: left;
+        color: #000;
+        line-height: 40px; }
+        .finally .final .app ul li span {
+          margin: 0 4px; }
+        .finally .final .app ul li a {
+          color: #000; }
+    .finally .final .card {
+      color: #fff; }
+      .finally .final .card ul li {
+        float: left;
+        font-size: 12px;
+        margin-right: 85px;
+        color: #a4a4a4; }
+    .finally .final .tel {
+      line-height: 25px;
+      font-size: 12px;
+      color: #a4a4a4; }
+      .finally .final .tel ul {
+        padding-top: 30px; }
+        .finally .final .tel ul li {
+          float: left;
+          margin-right: 85px; }
+    .finally .final .ban {
+      color: #686868;
+      font-size: 12px; }
